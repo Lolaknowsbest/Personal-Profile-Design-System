@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/secularone/v5/8QINdiTajsj_87rMuMdKyqDiOOg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html {
+    display:block;
+}
+
+body {
+    display:block;
+    margin:0 15%;
+    font-family: 'Open Sans', sans-serif ;
+}
+ h1 {
+     display: block;
+     margin: 1em 0em;
+     font-size: 2em;
+     font-weight: bold;
+ }
+
+ h2 {
+    display:block;
+    margin: 0.8em 0em;
+    font-size: 1.5em;
+    font-weight: bold
+}
+
+ /*Code for the individual boxes*/
+ .colors {
+     border: 3px solid #a2a2a6;
+     margin: 1em auto;
+     padding: 1em;
+ }
+
+ .fonts {
+     border: 3px solid #a2a2a6;
+     margin: 1em auto;
+     padding: 6em;
+     box-sizing: border-box;
+ }
+ 
+ .textstyles {
+     border: 3px solid #a2a2a6;
+     margin: 1em auto;
+     padding: 1em;
+ }
+
+ 
+/*Code for items in color boxes*/
+.colorbox {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.ppanel {
+    width: 23%; 
+    padding: 1em;
+    margin: auto;
+    background-color: #B015B0;
+    box-sizing: border-box;
+}
+
+.pcolor, .ptext {
+    color: #fff;
+    text-align: center;
+    
+}
+
+.bpanel {
+    width: 23%; 
+   
+    padding: 1em;
+    margin: auto;
+    background-color: #FF52FF;
+    box-sizing: border-box;
+}
+
+.bcolor, .btext {
+    color: #000;
+    text-align: center;
+}
+
+.hpanel {
+
+    width: 23%; 
+
+    padding: 1em;
+    margin: 3em auto;
+    background-color: #FC38FC;
+    box-sizing: border-box;
+}
+
+.hpanel, .htext {
+    color: #000;
+    text-align: center;
+}
+
+.lpanel {
+    
+    width: 23%; 
+
+    padding: 1em;
+    margin: 3em auto;
+    background-color: #40B004;
+    box-sizing: border-box;
+}
+
+.lpanel, .ltext {
+    color: #fff;
+    text-align: center;
+}
+
+/* Code for items in font box*/
+
+.fontbox {
+    width: 100%;
+    display:flex;
+    margin: auto;
+}
+
+.openfont {
+    display: inline-block;
+    width:45%; 
+    padding: 1em;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+.secularfont {
+    display: inline-block;
+    width: 45%;
+    padding: 1em;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: "Secular One";
+}
+
+.textbox {
+    width: 100%;
+    margin: auto;
+}
+
+.main {
+    display: block;
+    font-size: 1.25em;
+    font-family: "Secular One";
+    font-weight: 700;
+}
+
+.sub {
+   display:block;
+    font-size: 1.13em;
+    font-family: "Secular One" ;
+    font-weight: 500;
+}
+
+.paragraph {
+    display: block;
+    font-size: 1em;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
